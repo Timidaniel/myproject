@@ -1,0 +1,20 @@
+/* p {
+  color: red;
+} */
+span {
+  color: yellow;
+}
+
+.card button {
+  color: red;
+}
+/* div p{
+  color: yellow;
+  font-size: 15px;
+  text-align: center;
+} */
+div + p {
+  color: blue;
+  font-size: 15px;
+  text-align: center;
+}
