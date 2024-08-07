@@ -65,7 +65,7 @@ body {
   padding-top: 50px;
 }
 header {
-  background-image: url(https://res.cloudinary.com/dnb6x004q/image/upload/v1716287039/Viatours/Section_image_vgemeb.png);
+  background-image: url(https://res.cloudinary.com/dnb6x004q/image/upload/v1721208125/BG_Image_zq1kgh.png);
   background-repeat: no-repeat;
   /* background-position: center; */
   /* background-size: cover; */
@@ -94,3 +94,47 @@ p {
 .kid {
   margin-top: 200px;
 }
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 8px;
+  /* padding: 5rem; */
+}
+ .about-hero {
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+}
+
+/* .about-hero .about-col-1,
+.wwd-text,
+.project-title p span {
+  text-transform: uppercase;
+} */
+
+/* .about-hero .about-col-1 p {
+  font-size: 13px;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+} */
+
+/* .col-1-content {
+  margin-left: 5.5rem;
+} */
+
+/* .col-1-content h3 {
+  font-size: 25px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+} */
+/* .about-col-1 .col-1-content button {
+  background-color: var(--primary-yellow-btn);
+  color: var(--text-dark);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} */ */

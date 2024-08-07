@@ -1,20 +1,369 @@
-/* p {
-  color: red;
-} */
-span {
-  color: yellow;
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.card button {
-  color: red;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 25px;
+  position: relative;
 }
-/* div p{
-  color: yellow;
-  font-size: 15px;
-  text-align: center;
-} */
-div + p {
-  color: blue;
-  font-size: 15px;
-  text-align: center;
+
+header h4 span {
+  font-family: "Courgette", cursive;
 }
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+header nav a:hover {
+  border-bottom: 2px solid #000;
+}
+
+header nav a.active {
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+
+header .btn button {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+header .btn button:hover {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.about-col-1 {
+  padding: 5rem;
+  /* display: flex; */
+  column-gap: 20rem;
+  /* justify-content: space-between; */
+}
+.col-1 span h3{
+  margin-top: 5rem;
+}
+.col-1-content h3 {
+  padding-top: 20px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.col-1-content p {
+  line-height: 1.6rem;
+  margin-left: 30rem;
+  top: 50rem;
+}
+
+.col-1 {
+  column-gap: 10px;
+}
+iframe {
+  padding-left: 100px;
+  border-radius: 1rem;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  justify-content: center;
+  padding-top: 3rem;
+  margin-left: 8rem;
+}
+
+.back-ground {
+  background-color: #fcedc6;
+}
+.section div {
+  width: 48%;
+}
+
+.section h2 {
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.supporters {
+  text-align: start;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  padding-left: 6rem;
+}
+.img-cool {
+  display: flex;
+  column-gap: 8rem;
+}
+
+.supporters h2 {
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.supporters img {
+  margin: 0 10px;
+  vertical-align: middle;
+  column-gap: 20px;
+}
+
+.awards {
+  padding-top: 5rem;
+}
+.award {
+  margin-left: 36rem;
+}
+.img-nice {
+  padding-top: 3rem;
+  display: flex;
+  column-gap: 12rem;
+  margin-left: 10rem;
+}
+
+.journey {
+  display: flex;
+  align-items: center;
+  background-color: #f2c94c;
+  margin: 2rem 5rem;
+  border-radius: 15px;
+  padding: 3rem;
+  column-gap: 5rem;
+}
+.jtext p,
+h4 {
+  margin: 15px 0;
+}
+.jtext .jstats {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  column-gap: 3rem;
+}
+.jtext .jstats p {
+  font-size: 10px;
+}
+.million {
+  font-size: 30px;
+}
+
+.img-men {
+  padding-top: 3rem;
+  display: flex;
+  column-gap: 2rem;
+  margin-right: 9rem;
+  margin-left: 2rem;
+}
+
+.hero {
+  background-image: url("https://res.cloudinary.com/dnb6x004q/image/upload/v1721907433/BG_1_hx38ts.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 7rem 0 3rem;
+  color: var(--text-white);
+  margin: 70px;
+  border-radius: 20px;
+}
+.hero1 {
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+.hero1 .hero-content {
+  width: 50%;
+  padding: 0 2rem;
+}
+.hero-content {
+  font-size: 30px;
+}
+.hero-content h4 span {
+  margin-left: 3rem;
+}
+.hero-content {
+  margin-left: 20rem;
+}
+.join {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #f2c94c;
+  border: none;
+  margin-left: 35rem;
+}
+
+.contribute {
+  background-image: url("https://res.cloudinary.com/dnb6x004q/image/upload/v1721907433/BG_1_hx38ts.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  background-size: contain;
+  color: var(--text-white);
+  padding: 8rem;
+  margin: 5rem;
+  border-radius: 15px;
+}
+.contribute h3 {
+  font-size: 40px;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+.contribute button#volunteerjoin,
+button#donate {
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0 1rem;
+}
+
+.contribute button#volunteerjoin {
+  background-color: var(--primary-yellow-btn);
+}
+
+.contribute button#donate {
+  background-color: var(--text-white);
+  color: var(--text-dark);
+}
+.events {
+  padding: 0 5rem;
+}
+.events h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.event-cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+  margin: 3rem 0;
+}
+.event-cards .card-column {
+  background-color: var(--primary-yellow-btn);
+  padding: 2rem;
+  border-radius: 15px;
+  border: none;
+}
+.event-cards .card-column .col-content {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  column-gap: 1rem;
+}
+.col-content .date {
+  margin-right: 2rem;
+}
+.col-content .date h3 {
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.col-content .next-events {
+  margin-right: 3rem;
+}
+.col-content .next-events h5 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.col-content .next-events h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.col-content .next-icon .icon {
+  background-color: var(--text-white);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--text-dark);
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-white);
+  padding: 5rem;
+  column-gap: 3rem;
+}
+footer .logo {
+  width: 20%;
+}
+footer .logo .logo-about {
+  display: flex;
+  align-items: center;
+}
+
+footer .logo .logo-about h4 span {
+  font-family: "Courgette", cursive;
+}
+footer .logo p {
+  font-size: 13px;
+  line-height: 1rem;
+  letter-spacing: 3px;
+}
+
+footer h4 {
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+footer p {
+  font-size: 13px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+footer p a {
+  color: var(--text-white);
+  text-decoration: none;
+}
+footer .connect p.fas {
+  color: var(--text-white);
+}
+footer .newsletter {
+  width: 30%;
+}
+
+footer .newsletter h3 {
+  margin: 2rem 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+footer .newsletter input,
+button {
+  padding: 15px 10px;
+}
+footer .newsletter input:focus {
+  outline: none;
+  color: var(--text-white);
+}
+footer .newsletter input {
+  background: none;
+  border: 1px solid var(--text-white);
+}
+footer .newsletter button {
+  cursor: pointer;
+}
+
