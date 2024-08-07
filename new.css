@@ -52,7 +52,7 @@ header .btn button:hover {
   column-gap: 20rem;
   /* justify-content: space-between; */
 }
-.col-1 span h3{
+.col-1 span h3 {
   margin-top: 5rem;
 }
 .col-1-content h3 {
@@ -366,4 +366,3 @@ footer .newsletter input {
 footer .newsletter button {
   cursor: pointer;
 }
-
